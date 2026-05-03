@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Project_4_d2b51cf0"
+        },
+        {
+            "type": "java",
+            "name": "RentalApp",
+            "request": "launch",
+            "mainClass": "GUI.RentalApp",
+            "projectName": "Project_4_d2b51cf0"
+        }
+    ]
+}

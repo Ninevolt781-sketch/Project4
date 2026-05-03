@@ -7,8 +7,9 @@ public class Truck extends Vehicle {
     }
 
     @Override
-    public double calculateRent(int days) {
+    public double calculateRent(double days) {
         return (getrent_price() * days);
     }
+    
     
 }

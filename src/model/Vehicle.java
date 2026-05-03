@@ -16,7 +16,14 @@ public abstract class Vehicle {
         return rent_price;
     }
 
-    public abstract double calculateRent(int days);
+    public abstract double calculateRent(double days);
+
+
+    @Override
+    public String toString(){
+        return name;
+    }
+    
 
     
 }

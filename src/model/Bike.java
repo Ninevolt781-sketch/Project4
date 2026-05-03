@@ -5,4 +5,9 @@ public class Bike extends Vehicle {
         super("Bike", 99);
     }
     
+    @Override
+    public double calculateRent(double days) {
+        return (getrent_price() * days);
+    }
+    
 }

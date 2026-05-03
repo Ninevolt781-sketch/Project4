@@ -1,7 +1,7 @@
 package model;
 
 public interface Insurable {
-    public double getInsurance_price(int days);
+    public double getInsurance_price(double days);
 
     
 
